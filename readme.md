@@ -15,10 +15,10 @@ The below process assumes a properly set up react-native dev environment.
 1. Clone the repostory
 
 2. `cd ../noti-sync-client`
-2.1 `expo start`
-2.2 Copy your token and save it somewhere else.
+    1. `expo start`
+    2. Copy your token and save it somewhere else.
 
 3. `cd noti-sync-android`
-3.1 Inside `src/HomeScreen.js`, change the default state value your own push token.
-3.2 connect your phone and `adb connect usb`
-3.3 `yarn android`
+    1. Inside `src/HomeScreen.js`, change the default state value your own push token.
+    2. connect your phone and `adb connect usb`
+    3. `yarn android`
